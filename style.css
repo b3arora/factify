@@ -1,18 +1,17 @@
-.roboto-mono {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 50;
-    font-style: normal;
-  }
+
 
 body {
     background-color: black;
     color: #ffadf1;
-    font-family: "Roboto Mono", monospace;
+    font-family: "pixel";
 }
 
 button {
-    font-family: "Roboto Mono", monospace;
+    font-family: "pixel";
+}
+
+input {
+    font-family: "pixel";
 }
 
 #factify-title {
@@ -29,4 +28,9 @@ button {
     position: absolute;
     top: 30%;
     left: 35%;
+}
+
+@font-face {
+    font-family: pixel;
+    src: url("pixel.ttf");
 }

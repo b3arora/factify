@@ -1,0 +1,23 @@
+{
+  "name": "factify",
+  "version": "1.0.0",
+  "description": "a factbase made using node.js express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3arora/factify.git"
+  },
+  "author": "b3arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b3arora/factify/issues"
+  },
+  "homepage": "https://github.com/b3arora/factify#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+
+}
